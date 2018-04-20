@@ -122,7 +122,7 @@ if __name__ == '__main__':
             min_df=3, max_df=0.7,
             #stop_words='english',
             ngram_range=(1, 1),
-            max_features=40000)
+            max_features=50000)
         word_vectorizer.fit(all_text)
                 
     with timer("Transforming train into vectors"):
